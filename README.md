@@ -1,6 +1,9 @@
 # PlayWithPython
 Basic python programs with various datatypes and functions
 
+# Reverse the content of a list and print without comma
+lst.reverse()
+print(*lst, sep='')
 
 # Tuples
 * Tuples are immutable. You cannot assign. This is the difference between list and tuple
