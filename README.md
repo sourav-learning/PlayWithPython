@@ -5,6 +5,11 @@ Basic python programs with various datatypes and functions
 lst.reverse()
 print(*lst, sep='')
 
+# Reversing a word or sentence can be done in 2 ways
+The easiest is to s[::-1] where it starts from end and moves one position towards beginning. In python you are not required to explicitly mention the start and end. 
+
+The other way is to capture the last position and loop till beginning
+
 # Tuples
 * Tuples are immutable. You cannot assign. This is the difference between list and tuple
 * If a tuple contains, single element then end it with comma.
