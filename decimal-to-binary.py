@@ -7,4 +7,6 @@ while x>0:
 
 a.reverse()
 print("Binary value using python code: ",*a,sep='')
+
+#easy way using ready method
 print("Binary value using built in method: ", bin(decimalNumber))

@@ -9,3 +9,6 @@ print("The reversed sentence : ", rev_sentence)
 
 #the easy way
 print("The reversed sentence in the easy way : ", sentence[::-1])
+
+#another easy way
+print("Reversed using another easy way : ", ''.join(reversed(sentence)))
